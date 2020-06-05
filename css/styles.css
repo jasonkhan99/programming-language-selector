@@ -1,3 +1,24 @@
 #c, #python, #ruby, #rust, #javascript {
   display: none;
 }
+
+body {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.form-group {
+  padding: 20px;
+}
+
+#last {
+  margin-bottom: 25px;
+}
+
+h5 {
+  margin-top: 0px;
+}
+
+button {
+  margin-top: 40px;
+}

@@ -16,49 +16,59 @@
         <h3>Feeling overwhelmed by the amount of availible programming languages? Want to start your career in tech but afraid to make the wrong decision? Do not worry! The most important thing is to learn how programming works and not any one particular language. However, this website was created by a beggining developer in the early stages of his career in order to aliviate some of the stresses that you are going through now. Fill out the form below to see what languages might best fit you!</h3>
       </div>
       <form id="codeSelector">
-        <div class="form-group">
-          <label for="age">Enter your age:</label>
-          <input id="age" class="form-control" type="text">
+        <div class="row">
+          <div class="form-group">
+            <label for="age">Enter your age:</label>
+            <input id="age" class="form-control" type="text">
+          </div>
         </div>
-        <select class="form-control" id="gender">
-          <option selected disabled>Select your gender</option>
-          <option value="1">Male</option>
-          <option value="2">Female</option>
-          <option value="3">Both</option>
-          <option value="4">Neither</option>
-          <option value="5">Gender is a social construct</option>
-        </select>
-        <div class="form-group">
-          <label for="math">What is 2 + 2?</label>
-          <input id="math" class="form-control" type="text">
+        <div class="row">
+          <select class="form-control" id="gender">
+            <option selected disabled>Select your gender</option>
+            <option value="1">Male</option>
+            <option value="2">Female</option>
+            <option value="3">Both</option>
+            <option value="4">Neither</option>
+            <option value="5">Gender is a social construct</option>
+          </select>
         </div>
-      <h5><strong>Which do you prefer?</strong></h5>
-        <div class="radio">
-          <label>
-            <input type="radio" name="prefer" value="1" checked>
-            Music
-          </label>
+        <div class="row">
+          <div class="form-group">
+            <label for="math">What is 2 + 2?</label>
+            <input id="math" class="form-control" type="text">
+          </div>
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="prefer" value="3">
-            Movies
-          </label>
+        <div class="row">
+          <h5><strong>Which do you prefer?</strong></h5>
+            <div class="radio" id="first">
+              <label>
+                <input type="radio" name="prefer" value="1" checked>
+                Music
+              </label>
+            </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="prefer" value="3">
+              Movies
+            </label>
+          </div>
+          <div class="radio" id="last">
+            <label>
+              <input type="radio" name="prefer" value="5">
+              Books
+            </label>
+          </div>
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="prefer" value="5">
-            Books
-          </label>
+        <div class="row">
+          <select class="form-control" id="language">
+            <option selected disabled>Select most interesting language</option>
+            <option value="1">Python</option>
+            <option value="2">Ruby</option>
+            <option value="3">Javascript</option>
+            <option value="4">Rust</option>
+            <option value="5">C#</option>
+          </select>
         </div>
-        <select class="form-control" id="language">
-          <option selected disabled>Select most interesting language</option>
-          <option value="1">Python</option>
-          <option value="2">Ruby</option>
-          <option value="3">Javascript</option>
-          <option value="4">Rust</option>
-          <option value="5">C#</option>
-        </select>
         <button type="submit" class="btn">Submit!</button>
       </form>
       <div id="c">
