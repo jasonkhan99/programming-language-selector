@@ -1,12 +1,12 @@
-# _{Application Name}_
+# _Programming Language Selector_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _A survey to find out which programming launguages a right for you!, 06/05/2020_
 
 #### By _**Jason Khan**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This webpage will ask the user to fill out a form of questions, take the users input and based on the users answers will decide which programming languages would be best for them to learn first_
 
 ## Setup/Installation Requirements
 
@@ -20,14 +20,13 @@ Open by downloading:
 
 Open via Bash/GitBash:
 1. Clone this repository onto your computer:
-`git clone {PUT_REPO_HERE}`
-2. Navigate into the `{NAME_OF_DIRECTORY}` directory in Visual Studio Code or preferred text editor
+`git clone https://github.com/jasonkhan99/programming-language-selector.git`
+2. Navigate into the `/programming-language-selector` directory in Visual Studio Code or preferred text editor
 `code .`
 3. Open index.html in Chrome or preferred browser:
 `open index.html`
 
 #### To see my live website go to {GH_PAGES_LINK_HERE}!
-
 
 ## Known Bugs
 
@@ -35,7 +34,7 @@ _No known bugs_
 
 ## Support and contact details
 
-_Please reach out through my GitHub account._
+_Please reach out through my GitHub account. [https://github.com/jasonkhan99]_
 
 ## Technologies Used
 
