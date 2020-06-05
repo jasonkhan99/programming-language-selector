@@ -1,6 +1,8 @@
 $(document).ready(function() {
-  $("form#calculator").submit(function() {
+  $("form#codeSelector").submit(function() {
     event.preventDefault();
+    const age = parseInt($("#input1").val());
+    const gender = $("#gender").val();
 
   });
 });
