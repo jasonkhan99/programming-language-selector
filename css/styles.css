@@ -13,7 +13,7 @@ body {
 }
 
 #last {
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 
 h5 {
@@ -39,4 +39,18 @@ h4 {
 
 p {
   text-align: center;
+  font-weight: bold;
+}
+
+.jumbotron {
+  background-color: rgb(247, 243, 234);
+}
+
+.well {
+  background-color: rgb(247, 243, 234);
+}
+
+h3 {
+  text-align: center;
+  font-weight: bold;
 }
