@@ -26,8 +26,6 @@ Open via Bash/GitBash:
 3. Open index.html in Chrome or preferred browser:
 `open index.html`
 
-#### To see my live website go to {GH_PAGES_LINK_HERE}!
-
 ## Known Bugs
 
 _No known bugs_
