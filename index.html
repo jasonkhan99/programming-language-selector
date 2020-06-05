@@ -13,7 +13,7 @@
         <div class="well">
           <h1>Programming Language Selector</h1>
         </div>
-        <h3>Feeling overwhelmed by the amount of availible programming languages? Want to start your career in tech but afraid to make the wrong decision? Do not worry! The most important thing is to learn how programming works and not any one particular language. However, this website was created by a beggining developer in the early stages of his career in order to aliviate some of the stresses that you are going through now. Fill out the form below to see what languages might best fit you!</h3>
+        <h4>Feeling overwhelmed by the amount of availible programming languages? Want to start your career in tech but afraid to make the wrong decision? Do not worry! The most important thing is to learn how programming works and not any one particular language. However, this website was created by a beggining developer in the early stages of his career in order to aliviate some of the stresses that you are going through now. Fill out the form below to see what languages might best fit you!</h4>
       </div>
       <form id="codeSelector">
         <div class="row">
@@ -22,15 +22,17 @@
             <input id="age" class="form-control" type="text">
           </div>
         </div>
-        <div class="row">
-          <select class="form-control" id="gender">
-            <option selected disabled>Select your gender</option>
-            <option value="1">Male</option>
-            <option value="2">Female</option>
-            <option value="3">Both</option>
-            <option value="4">Neither</option>
-            <option value="5">Gender is a social construct</option>
-          </select>
+        <div class="well">
+          <div class="row">
+            <select class="form-control" id="gender">
+              <option selected disabled>Select your gender</option>
+              <option value="1">Male</option>
+              <option value="2">Female</option>
+              <option value="3">Both</option>
+              <option value="4">Neither</option>
+              <option value="5">Gender is a social construct</option>
+            </select>
+          </div>
         </div>
         <div class="row">
           <div class="form-group">
@@ -38,53 +40,61 @@
             <input id="math" class="form-control" type="text">
           </div>
         </div>
-        <div class="row">
-          <h5><strong>Which do you prefer?</strong></h5>
+        <div class="well">
+          <div class="row">
+            <h5><strong>Which do you prefer?</strong></h5>
             <div class="radio" id="first">
               <label>
                 <input type="radio" name="prefer" value="1" checked>
                 Music
               </label>
             </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="prefer" value="3">
-              Movies
-            </label>
-          </div>
-          <div class="radio" id="last">
-            <label>
-              <input type="radio" name="prefer" value="5">
-              Books
-            </label>
+            <div class="radio">
+              <label>
+                <input type="radio" name="prefer" value="3">
+                Movies
+              </label>
+            </div>
+            <div class="radio" id="last">
+              <label>
+                <input type="radio" name="prefer" value="5">
+                Books
+              </label>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <select class="form-control" id="language">
-            <option selected disabled>Select most interesting language</option>
-            <option value="1">Python</option>
-            <option value="2">Ruby</option>
-            <option value="3">Javascript</option>
-            <option value="4">Rust</option>
-            <option value="5">C#</option>
-          </select>
+        <div class="well">
+          <div class="row">
+            <select class="form-control" id="language">
+              <option selected disabled>Select most interesting language</option>
+              <option value="1">Python</option>
+              <option value="2">Ruby</option>
+              <option value="3">Javascript</option>
+              <option value="4">Rust</option>
+              <option value="5">C#</option>
+            </select>
+          </div>
         </div>
-        <button type="submit" class="btn">Submit!</button>
+        <div id="submitButton"></div>
+          <button type="submit" class="btn">Submit!</button>
+        </div>
       </form>
-      <div id="c">
-        <p>C# is the language for you!</p>
-      </div>
-      <div id="javascript">
-        <p>Javascript is the language for you!</p>
-      </div>
-      <div id="ruby">
-        <p>Ruby is the language for you!</p>
-      </div>
-      <div id="python">
-        <p>Python is the language for you!</p>
-      </div>
-      <div id="rust">
-        <p>Rust is the language for you!</p>
+      <div class="row">
+        <div id="c">
+          <p>C# is the language for you!</p>
+        </div>
+        <div class="output" id="javascript">
+          <p>Javascript is the language for you!</p>
+        </div>
+        <div class="output" id="ruby">
+          <p>Ruby is the language for you!</p>
+        </div>
+        <div class="output" id="python">
+          <p>Python is the language for you!</p>
+        </div>
+        <div class="output" id="rust">
+          <p>Rust is the language for you!</p>
+        </div>
       </div>
     </div>
   </body>

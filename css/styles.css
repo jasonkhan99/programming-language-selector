@@ -20,5 +20,19 @@ h5 {
 }
 
 button {
-  margin-top: 40px;
+  position: center;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h4 {
+  margin-top: 50px;
+}
+
+p {
+  text-align: center;
 }
