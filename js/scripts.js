@@ -1,3 +1,7 @@
+function finalResult(resultAge, gender, resultMath, media, language) {
+  return resultAge + gender + resultMath + media + language;
+}
+
 $(document).ready(function() {
   $("form#codeSelector").submit(function() {
     event.preventDefault();
@@ -9,27 +13,25 @@ $(document).ready(function() {
 
     let resultAge;
     let resultMath;
-    let result4;
-    let result5;
 
     if (age < 18) {
       resultAge = 1
     } else if (18 <= age && age <= 30) {
-      resultAge = 4
+      resultAge = 3
     } else if (30 < age) {  
-      resultAge = 7
+      resultAge = 5
     } else { 
       alert("Please enter a numerical value");
     }
 
     if (math === 4) {
-      resultMath = 7
+      resultMath = 5
     } else if (math < 4 || math > 4) {
       resultMath = 1
     } else {
       alert("Please enter a numerical value");
     }
 
-    $("#output").text(resultMath);
+    $("#output").text(finalResult(resultAge, gender, resultMath, media, language));
   });
 });
