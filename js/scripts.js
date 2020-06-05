@@ -1,7 +1,3 @@
-function finalResult(resultAge, gender, resultMath, media, language) {
-  return resultAge + gender + resultMath + media + language;
-}
-
 $(document).ready(function() {
   $("form#codeSelector").submit(function() {
     event.preventDefault();
@@ -32,6 +28,18 @@ $(document).ready(function() {
       alert("Please enter a numerical value");
     }
 
-    $("#output").text(finalResult(resultAge, gender, resultMath, media, language));
+    let finalResult = resultAge + gender + resultMath + media + language;
+
+    if (finalResult <= 9) {
+      $('#python').show();
+    } else if (10 <= finalResult && finalResult <= 14) {
+      $('#ruby').show();
+    } else if (15 <= finalResult && finalResult <= 19) {
+      $('#javascript').show();
+    } else if (20 <= finalResult && finalResult <= 22) {
+      $('#rust').show();
+    } else if (23 <= finalResult && finalResult <= 25) {
+      $('#c').show();
+    }
   });
 });
