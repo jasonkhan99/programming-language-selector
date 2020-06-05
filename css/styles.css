@@ -5,6 +5,7 @@
 body {
   padding-top: 50px;
   padding-bottom: 100px;
+  background-color: rgb(197, 221, 230);
 }
 
 .form-group {
@@ -31,6 +32,9 @@ h1 {
 
 h4 {
   margin-top: 50px;
+  text-align: center;
+  letter-spacing: .5px;
+  line-height: 40px;
 }
 
 p {
