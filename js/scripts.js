@@ -31,15 +31,15 @@ $(document).ready(function() {
     let finalResult = resultAge + gender + resultMath + media + language;
 
     if (finalResult <= 9) {
-      $('#python').show();
+      $('#python').toggle();
     } else if (10 <= finalResult && finalResult <= 14) {
-      $('#ruby').show();
+      $('#ruby').toggle();
     } else if (15 <= finalResult && finalResult <= 19) {
-      $('#javascript').show();
+      $('#javascript').toggle();
     } else if (20 <= finalResult && finalResult <= 22) {
-      $('#rust').show();
+      $('#rust').toggle();
     } else if (23 <= finalResult && finalResult <= 25) {
-      $('#c').show();
+      $('#c').toggle();
     }
   });
 });
