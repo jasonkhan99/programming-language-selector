@@ -31,15 +31,35 @@ $(document).ready(function() {
     let finalResult = resultAge + gender + resultMath + media + language;
 
     if (finalResult <= 9) {
-      $('#python').toggle();
+      $('#python').show();
+      $('#c').hide();
+      $('#ruby').hide();
+      $('#javascript').hide();
+      $('#rust').hide();
     } else if (10 <= finalResult && finalResult <= 14) {
-      $('#ruby').toggle();
+      $('#ruby').show();
+      $('#c').hide();
+      $('#python').hide();
+      $('#javascript').hide();
+      $('#rust').hide();
     } else if (15 <= finalResult && finalResult <= 19) {
-      $('#javascript').toggle();
+      $('#javascript').show();
+      $('#c').hide();
+      $('#ruby').hide();
+      $('#python').hide();
+      $('#rust').hide();
     } else if (20 <= finalResult && finalResult <= 22) {
-      $('#rust').toggle();
+      $('#rust').show();
+      $('#c').hide();
+      $('#ruby').hide();
+      $('#javascript').hide();
+      $('#python').hide();
     } else if (23 <= finalResult && finalResult <= 25) {
-      $('#c').toggle();
+      $('#c').show();
+      $('#python').hide();
+      $('#ruby').hide();
+      $('#javascript').hide();
+      $('#rust').hide();
     }
   });
 });
